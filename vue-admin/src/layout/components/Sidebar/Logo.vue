@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar-logo-container">
-    <img src="@/assets/hmzs-logo.png" class="sidebar-logo" />
+    <!-- 图片已移除 -->
   </div>
 </template>
 
@@ -14,13 +14,9 @@ export default {
 .sidebar-logo-container {
   position: relative;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 0px;
+  line-height: 0px;
   overflow: hidden;
-  // 大图样式
-  .sidebar-logo {
-    width: 100%;
-    height: 100%;
-  }
+  display: none;
 }
 </style>
